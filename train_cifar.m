@@ -1,4 +1,4 @@
-function [net,info] = inception_cifar(varargin)
+function [net,info] = train_cifar(varargin)
 
 run(fullfile(fileparts(mfilename('fullpath')), ...
   '..', '..', 'matlab', 'vl_setupnn.m')) ;

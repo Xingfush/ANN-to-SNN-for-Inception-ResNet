@@ -1,4 +1,4 @@
-function net = res_cifar_init(varargin)
+function net = incep_res_init(varargin)
 
 opts.scale = 1 ;
 opts.initBias = 0.1 ;

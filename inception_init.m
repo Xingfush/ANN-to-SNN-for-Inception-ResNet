@@ -1,4 +1,4 @@
-function net = inception_cifar_init(varargin)
+function net = inception_init(varargin)
 
 opts.scale = 1 ;
 opts.initBias = 0.1 ;
